@@ -1,0 +1,14 @@
+module multiplier_4_4(A, B, S, C);
+
+input [4:0]A;
+input [4:0]B;
+
+output [7:0]Sum;
+output carry;
+
+wire [7:0]And;
+
+and
+
+and (Sum[0], A[0], B[0]);
+half_adder HA1(Sum[1], 
